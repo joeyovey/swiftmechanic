@@ -5,3 +5,65 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    /* background: white; */
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+select{
+    border: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.nav-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.lang-btn, .login-btn, .signup-btn {
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.lang-btn {
+    background: none;
+}
+
+.login-btn {
+    background: #E0E0E0;
+    border-radius: 5px;
+}
+
+.signup-btn {
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
