@@ -67,3 +67,108 @@ select{
     color: white;
     border-radius: 5px;
 }
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 5%;
+}
+
+.hero::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90%;
+    height: 100%;
+    background: #008080;
+    clip-path: polygon(75% 0, 100% 0, 100% 100%, 52% 100%);
+    z-index: -1;
+}
+
+.hero-text {
+    max-width: 40%;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    color: black;
+}
+
+.hero-text p {
+    font-size: 1rem;
+    color: gray;
+}
+
+.cta-btn {
+    background: black;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.sign-in {
+    margin-top: 10px;
+}
+
+.sign-in a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Hero Images */
+.hero-image {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-image img {
+    /* width: 250px; */
+    margin-right: 170px;
+    height: auto;
+}
+
+/* Footer */
+footer{
+    background-color: #00806b;
+    
+}
+.footSection{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 5%;
+
+}
+.last{
+    text-align: center;
+    color: white;
+    /* clear: both; */
+}
+
+h3{
+    color: white;
+}
+h2{
+    font-size: 2rem;
+}
+
+.anchor{color: white;}
+.anchor a{
+    line-height: 2;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.anchor a:hover{
+    color: red;
+}
+.anchor p{
+    color: white;
+}
